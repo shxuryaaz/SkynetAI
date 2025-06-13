@@ -71,6 +71,7 @@ streamlit run streamlit_app/ui.py
 
 <p align="center">
   <img src="https://i.ibb.co/tMCVQKYH/initializing.png" width="700" alt="SkynetAI"/>
+  <img src="https://i.ibb.co/svfc7VwX/final-screen.png" width="700" alt="SkynetAI2"/>
 </p>
 
 ---
