@@ -70,7 +70,7 @@ streamlit run streamlit_app/ui.py
 ## 📷 Screenshot
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/15Fg_vSJzpEurrZPuWQhxvVlNYDWd9-8a/view?usp=sharing" width="700" alt="SkynetAI"/>
+  <img src="https://i.ibb.co/tMCVQKYH/initializing.png" width="700" alt="SkynetAI"/>
 </p>
 
 ---
