@@ -14,13 +14,13 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 SkyNetAI is a powerful, modular AI chatbot framework built for intelligent and scalable interaction with advanced language models. It combines a responsive web interface using **Streamlit** with a high-performance backend powered by **FastAPI**. SkyNetAI supports major LLMs like **OpenAI**, **Mistral**, **Falcon**, and models hosted on **Hugging Face**, enabling users to deploy domain-specific bots tailored to sectors like finance, education, or tech. It features secure `.env`-based API key management and an architecture that makes adding new models or features simple and intuitive.
 
 ---
 
-## 🧠 How It Works – NLP & LLM Integration
+## How It Works – NLP & LLM Integration
 
 SkyNetAI utilizes advanced **Natural Language Processing (NLP)** capabilities through state-of-the-art **Large Language Models (LLMs)**. Using APIs like OpenAI or Hugging Face's InferenceClient, user inputs are processed using **transformer architectures** such as GPT, Mistral, or Falcon.
 
@@ -34,7 +34,7 @@ SkyNetAI abstracts the complexity of NLP via tools like Hugging Face Transformer
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Layer         | Technology                   |
 |---------------|-------------------------------|
@@ -46,7 +46,7 @@ SkyNetAI abstracts the complexity of NLP via tools like Hugging Face Transformer
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### 1. Clone the repo
 
@@ -94,7 +94,7 @@ streamlit run streamlit_app/ui.py
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 | Variable             | Description                            |
 |----------------------|----------------------------------------|
@@ -104,7 +104,7 @@ streamlit run streamlit_app/ui.py
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please fork the repo and submit a pull request.
 
