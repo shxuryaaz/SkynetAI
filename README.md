@@ -1,5 +1,5 @@
 
-# SkyNetAI
+# <img src="skynet_logo.png" alt="SkyNet Logo" height="35" style="vertical-align: middle;"> SkyNetAI
 
 > A blazing-fast, intelligent AI chatbot built with **FastAPI**, **Streamlit**, and **LLMs** (like OpenAI / Mistral / Falcon).
 
