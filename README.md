@@ -1,5 +1,4 @@
-
-#SkyNetAI
+# SkyNetAI
 
 > A blazing-fast, intelligent AI chatbot built with **FastAPI**, **Streamlit**, and **LLMs** (like OpenAI / Mistral / Falcon).
 
