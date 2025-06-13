@@ -3,6 +3,13 @@
 > A blazing-fast, intelligent AI chatbot built with **FastAPI**, **Streamlit**, and **LLMs** (like OpenAI / Mistral / Falcon).
 
 <p align="center">
+  <img src="skynet_logo.png" alt="SkyNet Logo" width="120"/>
+</p>
+
+
+> A blazing-fast, intelligent AI chatbot built with **FastAPI**, **Streamlit**, and **LLMs** (like OpenAI / Mistral / Falcon).
+
+<p align="center">
   <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
   <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" />
   <img src="https://img.shields.io/badge/Powered%20By-LLM-blue?style=flat-square" />
