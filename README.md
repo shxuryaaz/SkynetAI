@@ -1,4 +1,4 @@
-# SkyNetAI
+# 🤖 SkyNetAI
 
 > A blazing-fast, intelligent AI chatbot built with **FastAPI**, **Streamlit**, and **LLMs** (like OpenAI / Mistral / Falcon).
 
@@ -14,8 +14,23 @@
 
 ---
 
-## Features
-SkyNetAI is a versatile and high-performance AI chatbot platform that enables seamless interaction with powerful Large Language Models (LLMs) such as OpenAI GPT, Mistral, Falcon, and Hugging Face-hosted models. It offers a clean, intuitive frontend built with Streamlit and a robust backend powered by FastAPI. Users can tailor the chatbot’s responses to specific domains like finance or technology, making it ideal for both general-purpose and specialized use cases. The application supports secure environment-based API key configuration and is designed to be easily extensible with support for various LLMs and additional modules.
+## 🚀 Features
+
+SkyNetAI is a powerful, modular AI chatbot framework built for intelligent and scalable interaction with advanced language models. It combines a responsive web interface using **Streamlit** with a high-performance backend powered by **FastAPI**. SkyNetAI supports major LLMs like **OpenAI**, **Mistral**, **Falcon**, and models hosted on **Hugging Face**, enabling users to deploy domain-specific bots tailored to sectors like finance, education, or tech. It features secure `.env`-based API key management and an architecture that makes adding new models or features simple and intuitive.
+
+---
+
+## 🧠 How It Works – NLP & LLM Integration
+
+SkyNetAI utilizes advanced **Natural Language Processing (NLP)** capabilities through state-of-the-art **Large Language Models (LLMs)**. Using APIs like OpenAI or Hugging Face's InferenceClient, user inputs are processed using **transformer architectures** such as GPT, Mistral, or Falcon.
+
+These LLMs are capable of:
+- Understanding natural human language with context
+- Extracting relevant information from input queries
+- Generating meaningful, fluent, and context-aware replies
+- Adapting behavior based on selected domains like finance, tech, or general-purpose
+
+SkyNetAI abstracts the complexity of NLP via tools like Hugging Face Transformers and exposes a clean FastAPI interface to integrate easily with frontend or other services. This makes it a great foundation for chatbot apps, knowledge assistants, and custom LLM-based tools.
 
 ---
 
@@ -31,16 +46,16 @@ SkyNetAI is a versatile and high-performance AI chatbot platform that enables se
 
 ---
 
-## Getting Started
+## ⚙️ Getting Started
 
-### 1.Clone the repo
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/shxuryaaz/SkynetAI.git
 cd SkynetAI
 ```
 
-### 2.Set up environment
+### 2. Set up environment
 
 ```bash
 python -m venv venv
@@ -48,7 +63,7 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
-### 3.Create `.env` file
+### 3. Create `.env` file
 
 ```env
 OPENAI_API_KEY=your_openai_key
@@ -56,13 +71,13 @@ HUGGINGFACE_TOKEN=your_huggingface_token
 LLM_MODE=openai   # or mistral or falcon
 ```
 
-### 4.Run the backend API
+### 4. Run the backend API
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-### 5.Launch the UI
+### 5. Launch the UI
 
 ```bash
 streamlit run streamlit_app/ui.py
@@ -70,7 +85,7 @@ streamlit run streamlit_app/ui.py
 
 ---
 
-## Screenshot
+## 📸 Screenshot
 
 <p align="center">
   <img src="https://i.ibb.co/tMCVQKYH/initializing.png" width="700" alt="SkynetAI"/>
@@ -89,7 +104,7 @@ streamlit run streamlit_app/ui.py
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please fork the repo and submit a pull request.
 
@@ -108,6 +123,6 @@ This project is licensed under the MIT License
 
 ---
 
-## Contact
+## 📬 Contact
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/shauryasingh28/)
