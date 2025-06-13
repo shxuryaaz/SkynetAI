@@ -1,10 +1,11 @@
+
 # 🤖 Intellichat
 
-> A blazing-fast, intelligent AI chatbot built with **FastAPI**, **Streamlit**, and **LLMs** (like OpenAI / Mistral).
+> A blazing-fast, intelligent AI chatbot built with **FastAPI**, **Streamlit**, and **LLMs** (like OpenAI / Mistral / Falcon).
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
-  <img src="https://img.shields.io/github/license/yourusername/intellichat?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" />
   <img src="https://img.shields.io/badge/Powered%20By-LLM-blue?style=flat-square" />
 </p>
 
@@ -23,13 +24,13 @@
 
 ## 📦 Tech Stack
 
-| Layer         | Technology              |
-|---------------|--------------------------|
-| Backend       | FastAPI (Python)         |
-| Frontend      | Streamlit                |
-| LLM Provider  | HuggingFace / OpenAI     |
-| NLP Engine    | Transformers / InferenceClient |
-| Env Handling  | `python-dotenv`          |
+| Layer         | Technology                   |
+|---------------|-------------------------------|
+| Backend       | FastAPI (Python)              |
+| Frontend      | Streamlit                     |
+| LLM Provider  | HuggingFace / OpenAI          |
+| NLP Engine    | Transformers / InferenceClient|
+| Env Handling  | `python-dotenv`               |
 
 ---
 
@@ -104,10 +105,11 @@ git push origin feature/awesome-feature
 
 ## 🛡 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License  
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
 ## 💬 Contact
 
-Made with ❤️ by [@nitrus](https://github.com/yourusername)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/shauryasingh28/)
