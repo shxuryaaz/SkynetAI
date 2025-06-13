@@ -11,7 +11,7 @@
 
 ---
 
-## ✨ Features
+## Features
 SkyNetAI is a versatile and high-performance AI chatbot platform that enables seamless interaction with powerful Large Language Models (LLMs) such as OpenAI GPT, Mistral, Falcon, and Hugging Face-hosted models. It offers a clean, intuitive frontend built with Streamlit and a robust backend powered by FastAPI. Users can tailor the chatbot’s responses to specific domains like finance or technology, making it ideal for both general-purpose and specialized use cases. The application supports secure environment-based API key configuration and is designed to be easily extensible with support for various LLMs and additional modules.
 
 ---
@@ -28,16 +28,16 @@ SkyNetAI is a versatile and high-performance AI chatbot platform that enables se
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the repo
+### 1.Clone the repo
 
 ```bash
 git clone https://github.com/shxuryaaz/SkynetAI.git
 cd SkynetAI
 ```
 
-### 2️⃣ Set up environment
+### 2.Set up environment
 
 ```bash
 python -m venv venv
@@ -45,7 +45,7 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Create `.env` file
+### 3.Create `.env` file
 
 ```env
 OPENAI_API_KEY=your_openai_key
@@ -53,13 +53,13 @@ HUGGINGFACE_TOKEN=your_huggingface_token
 LLM_MODE=openai   # or mistral or falcon
 ```
 
-### 4️⃣ Run the backend API
+### 4.Run the backend API
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-### 5️⃣ Launch the UI
+### 5.Launch the UI
 
 ```bash
 streamlit run streamlit_app/ui.py
@@ -67,7 +67,7 @@ streamlit run streamlit_app/ui.py
 
 ---
 
-## 📷 Screenshot
+## Screenshot
 
 <p align="center">
   <img src="https://i.ibb.co/tMCVQKYH/initializing.png" width="700" alt="SkynetAI"/>
@@ -86,7 +86,7 @@ streamlit run streamlit_app/ui.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please fork the repo and submit a pull request.
 
@@ -105,6 +105,6 @@ This project is licensed under the MIT License
 
 ---
 
-## 💬 Contact
+## Contact
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/shauryasingh28/)
