@@ -1,5 +1,5 @@
 
-# 🤖 Intellichat
+# SkyNetAI
 
 > A blazing-fast, intelligent AI chatbot built with **FastAPI**, **Streamlit**, and **LLMs** (like OpenAI / Mistral / Falcon).
 
@@ -12,13 +12,7 @@
 ---
 
 ## ✨ Features
-
-- 🔌 Chat with powerful LLMs (OpenAI GPT / Mistral / Falcon / Hugging Face models)
-- 🌐 Simple REST API using FastAPI
-- 🧠 Choose domain-specific knowledge (e.g., finance, tech)
-- 🖥️ Clean web UI using Streamlit
-- 🔒 Environment-secured API Key support
-- 🦾 Easily extendable with other models and domains
+SkyNetAI is a versatile and high-performance AI chatbot platform that enables seamless interaction with powerful Large Language Models (LLMs) such as OpenAI GPT, Mistral, Falcon, and Hugging Face-hosted models. It offers a clean, intuitive frontend built with Streamlit and a robust backend powered by FastAPI. Users can tailor the chatbot’s responses to specific domains like finance or technology, making it ideal for both general-purpose and specialized use cases. The application supports secure environment-based API key configuration and is designed to be easily extensible with support for various LLMs and additional modules.
 
 ---
 
@@ -39,8 +33,8 @@
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/intellichat.git
-cd intellichat
+git clone https://github.com/shxuryaaz/SkynetAI.git
+cd SkynetAI
 ```
 
 ### 2️⃣ Set up environment
