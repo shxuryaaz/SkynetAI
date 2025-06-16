@@ -16,6 +16,15 @@ body, .stApp {
     color: #ff4c4c;
 }
 
+img.skynet-logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 2rem;
+    filter: blur(2px);
+    opacity: 0.6;
+}
+
 @keyframes glitch {
   0% { text-shadow: 2px 2px red; }
   20% { text-shadow: -2px -2px #ff0000; }
@@ -30,7 +39,7 @@ body, .stApp {
     font-weight: bold;
     text-align: center;
     animation: glitch 1s infinite;
-    margin-top: 10vh;
+    margin-top: 5vh;
     color: #ff1a1a;
     text-shadow: 0 0 15px red;
 }
@@ -58,13 +67,15 @@ body, .stApp {
     box-shadow: 0 0 18px red;
 }
 
-.stSelectbox>div>div>div {
+.stSelectbox > div {
     background-color: #0e0e0e;
-    border: 2px solid #ff4c4c;
-    color: #ffcccc;
-    font-size: 1.1rem;
+    border: 2px solid #ff4c4c !important;
     border-radius: 10px;
-    min-width: 260px;
+}
+.stSelectbox > div > div {
+    font-size: 1.1rem;
+    color: #ffcccc;
+    padding: 10px;
 }
 
 div.stButton > button {
@@ -113,6 +124,11 @@ div.stButton > button:hover {
   50% { border-color: red; }
 }
 </style>
+""", unsafe_allow_html=True)
+
+# Show background image (blurred logo)
+st.markdown("""
+<img src="https://i.ibb.co/rG3wXqPG/skynet-logo.png" alt="skynet-logo" class="skynet-logo"/>
 """, unsafe_allow_html=True)
 
 # SPLASH SCREEN using container
